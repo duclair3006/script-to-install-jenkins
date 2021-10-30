@@ -16,6 +16,7 @@ then
 case $OS in
 Ubuntu)
      sudo apt update
+     sudo apt install ca-certificates -y
 sudo apt search openjdk
 sudo apt install openjdk-11-jdk -y
 java -version
